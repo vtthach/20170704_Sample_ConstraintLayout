@@ -8,13 +8,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent=".7"/>
+        app:layout_constraintGuide_percent=".762"/>
 
     <android.support.constraint.Guideline
         android:id="@+id/verticalGuideline"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent=".56"/>
+        app:layout_constraintGuide_percent=".55"/>
 
 </merge>
