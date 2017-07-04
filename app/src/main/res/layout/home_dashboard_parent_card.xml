@@ -1,0 +1,21 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:background="#e9080f"
+    app:layout_constraintBottom_toBottomOf="@+id/fragmentGuidelineBottom"
+    app:layout_constraintLeft_toLeftOf="@+id/tvHello"
+    app:layout_constraintRight_toRightOf="@+id/fragmentGuidelineRight"
+    app:layout_constraintTop_toBottomOf="@id/tvHello"
+    tools:showIn="@layout/home_dashboard_fragment">
+
+    <include layout="@layout/home_dashboard_parent_guideline" />
+
+    <include layout="@layout/home_dashboard_account_summary" />
+
+    <include layout="@layout/home_dashboard_card_management" />
+
+    <include layout="@layout/home_dashboard_card_profile_context" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="home_dashboard_parent_item_margin">5dp</dimen>
+    <dimen name="home_dashboard_fragment_padding_left">118dp</dimen>
+    <dimen name="home_dashboard_fragment_padding_right">127dp</dimen>
+</resources>

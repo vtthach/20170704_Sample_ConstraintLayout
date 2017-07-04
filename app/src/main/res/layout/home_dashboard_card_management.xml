@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:background="#1fb631"
+    android:layout_marginRight="@dimen/home_dashboard_parent_item_margin"
+    android:layout_marginTop="@dimen/home_dashboard_parent_item_margin"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="@+id/horizontalGuideline"
+    app:layout_constraintTop_toTopOf="@+id/verticalGuideline"
+    tools:ignore="UnknownIdInLayout"
+    tools:showIn="@layout/home_dashboard_parent_card">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#69d7b5c6"
+        android:padding="50dp"
+        android:text="Card management"
+        android:textColor="#f7fcf8"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText"/>
+
+</android.support.constraint.ConstraintLayout>
