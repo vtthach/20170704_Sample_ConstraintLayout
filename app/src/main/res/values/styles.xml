@@ -23,7 +23,111 @@
 
     <style name="CBSATextAppearance.Heading1" parent="@android:style/TextAppearance.Material.Headline">
         <item name="android:textSize">30sp</item>
+        <item name="android:lineSpacingExtra">@dimen/cbsa_text_line_spacing_multiplier_1_2</item>
+    </style>
+
+    <style name="CBSATextAppearance" parent="android:TextAppearance">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="CBSATextAppearance.Heading1.Bold" parent="CBSATextAppearance.Heading1">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CBSATextAppearance.Heading1.Light" parent="CBSATextAppearance.Heading1">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="CBSATextAppearance.Heading1.Medium" parent="CBSATextAppearance.Heading1">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="CBSATextAppearance.Heading2" parent="CBSATextAppearance">
+        <item name="android:textSize">@dimen/cbsa_text_size_heading_2</item>
+        <item name="android:lineSpacingMultiplier">@dimen/cbsa_text_line_spacing_multiplier_1_2
+        </item>
         <!--<item name="android:lineSpacingExtra">@dimen/cbsa_text_line_spacing_10</item>-->
+    </style>
+
+    <style name="CBSATextAppearance.Heading2.Bold" parent="CBSATextAppearance.Heading2">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CBSATextAppearance.Heading2.Light" parent="CBSATextAppearance.Heading2">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="CBSATextAppearance.Heading2.Medium" parent="CBSATextAppearance.Heading2">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="CBSATextAppearance.Heading3" parent="CBSATextAppearance">
+        <item name="android:textSize">@dimen/cbsa_text_size_heading_3</item>
+        <item name="android:lineSpacingMultiplier">@dimen/cbsa_text_line_spacing_multiplier_1_2
+        </item>
+        <!--<item name="android:lineSpacingExtra">@dimen/cbsa_text_line_spacing_10</item>-->
+    </style>
+
+    <style name="CBSATextAppearance.Paragraph1" parent="CBSATextAppearance">
+        <item name="android:textSize">@dimen/cbsa_text_size_paragraph_1</item>
+        <item name="android:lineSpacingMultiplier">@dimen/cbsa_text_line_spacing_multiplier_1_2
+        </item>
+        <!--<item name="android:lineSpacingExtra">@dimen/cbsa_text_line_spacing_5</item>-->
+    </style>
+
+    <style name="CBSATextAppearance.Paragraph1.Bold" parent="CBSATextAppearance.Paragraph1">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CBSATextAppearance.Paragraph1.Medium" parent="CBSATextAppearance.Paragraph1">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="CBSATextAppearance.Paragraph2" parent="CBSATextAppearance">
+        <item name="android:textSize">@dimen/cbsa_text_size_paragraph_2</item>
+        <item name="android:lineSpacingMultiplier">@dimen/cbsa_text_line_spacing_multiplier_1_2
+        </item>
+        <!--<item name="android:lineSpacingExtra">@dimen/cbsa_text_line_spacing_5</item>-->
+    </style>
+
+    <style name="CBSATextAppearance.Paragraph2.Bold" parent="CBSATextAppearance.Paragraph2">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CBSATextAppearance.Paragraph2.Medium" parent="CBSATextAppearance.Paragraph2">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="BottomCard">
+        <item name="cardBackgroundColor">@color/cbsa_color_white</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+    <style name="BottomCardIcon">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="layout_constraintBottom_toBottomOf">@+id/bottomGuideline</item>
+        <item name="layout_constraintLeft_toLeftOf">parent</item>
+        <item name="layout_constraintRight_toRightOf">parent</item>
+        <item name="layout_constraintTop_toTopOf">@+id/topGuideline</item>
+    </style>
+
+    <style name="BottomCardText">
+
+        <item name="layout_constraintVertical_bias">0.195</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="layout_constraintBottom_toBottomOf">parent</item>
+        <item name="layout_constraintLeft_toLeftOf">parent</item>
+        <item name="layout_constraintRight_toRightOf">parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAppearance">@style/CBSATextAppearance.Paragraph1.Bold</item>
     </style>
 
 </resources>

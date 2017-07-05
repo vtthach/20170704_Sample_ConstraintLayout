@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/BottomCard"
+    android:layout_marginLeft="@dimen/home_dashboard_parent_item_margin"
+    android:layout_marginRight="@dimen/home_dashboard_parent_item_margin"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toRightOf="@+id/guideline1"
+    app:layout_constraintRight_toLeftOf="@+id/guideline2"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:showIn="@layout/home_dashboard_fragment">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/home_dashboard_bottom_icon_percent_guideline" />
+
+        <ImageView
+            android:id="@+id/imgCard"
+            style="@style/BottomCardIcon"
+            android:src="@drawable/ic_profile_shadow"
+            app:layout_constraintTop_toTopOf="@+id/topGuidelineProfile" />
+
+        <TextView
+            style="@style/BottomCardText"
+            android:text="Profile\nmanagement"
+            app:layout_constraintTop_toBottomOf="@+id/imgCard" />
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.v7.widget.CardView>

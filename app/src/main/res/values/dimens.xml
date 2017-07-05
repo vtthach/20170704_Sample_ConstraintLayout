@@ -18,4 +18,10 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <item format="float" name="cbsa_text_line_spacing_multiplier_1_2" type="dimen">1.2</item>
+    <dimen name="cbsa_text_size_heading_1">32sp</dimen>
+    <dimen name="cbsa_text_size_heading_2">20sp</dimen>
+    <dimen name="cbsa_text_size_heading_3">32sp</dimen>
+    <dimen name="cbsa_text_size_paragraph_1">16sp</dimen>
+    <dimen name="cbsa_text_size_paragraph_2">14sp</dimen>
 </resources>

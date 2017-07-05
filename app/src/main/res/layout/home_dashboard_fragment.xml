@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#6a8296af"
+    android:background="#CCC"
     android:orientation="vertical"
     tools:showIn="@layout/activity_main_done">
 
@@ -13,16 +13,17 @@
         android:id="@+id/tvHello"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:paddingLeft="4dp"
         android:text="Hello Stoney"
         android:textAppearance="@style/CBSATextAppearance.Heading1"
         android:textColor="@color/cbsa_color_white"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.136"
+        app:layout_constraintHorizontal_bias="@dimen/home_dashboard_fragment_horizontal_bias"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.067"
-        tools:ignore="UnknownIdInLayout" />
+        app:layout_constraintVertical_bias="@dimen/home_dashboard_fragment_vertical_bias"
+        tools:ignore="RtlHardcoded,UnknownIdInLayout" />
 
     <include layout="@layout/home_dashboard_parent_card" />
 

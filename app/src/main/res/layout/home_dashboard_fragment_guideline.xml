@@ -14,6 +14,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent=".915" />
+        app:layout_constraintGuide_percent="@dimen/home_dashboard_fragment_guideline_bottom"/>
 
 </merge>
