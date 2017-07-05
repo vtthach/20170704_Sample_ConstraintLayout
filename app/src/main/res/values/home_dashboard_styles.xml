@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BottomCard">
+        <item name="cardBackgroundColor">@color/cbsa_color_white</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+    </style>
+
+    <style name="BottomCardIcon">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:scaleType">fitCenter</item>
+        <item name="layout_constraintBottom_toBottomOf">@+id/bottomGuideline</item>
+        <item name="layout_constraintLeft_toLeftOf">parent</item>
+        <item name="layout_constraintRight_toRightOf">parent</item>
+        <item name="layout_constraintTop_toTopOf">@+id/topGuideline</item>
+    </style>
+
+    <style name="BottomCardText">
+
+        <item name="layout_constraintVertical_bias">0.195</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="layout_constraintBottom_toBottomOf">parent</item>
+        <item name="layout_constraintLeft_toLeftOf">parent</item>
+        <item name="layout_constraintRight_toRightOf">parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAppearance">@style/CBSATextAppearance.Paragraph1.Bold</item>
+    </style>
+
+</resources>

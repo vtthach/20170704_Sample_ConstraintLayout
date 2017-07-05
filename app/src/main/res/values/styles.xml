@@ -102,32 +102,26 @@
         <item name="android:fontFamily">sans-serif-medium</item>
     </style>
 
-    <style name="BottomCard">
-        <item name="cardBackgroundColor">@color/cbsa_color_white</item>
-        <item name="android:layout_width">0dp</item>
-        <item name="android:layout_height">0dp</item>
+    <style name="CBSAButton.Primary" parent="Button.Without.Icon">
+        <item name="android:minWidth">0dp</item>
     </style>
 
-    <style name="BottomCardIcon">
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">0dp</item>
-        <item name="android:scaleType">fitCenter</item>
-        <item name="layout_constraintBottom_toBottomOf">@+id/bottomGuideline</item>
-        <item name="layout_constraintLeft_toLeftOf">parent</item>
-        <item name="layout_constraintRight_toRightOf">parent</item>
-        <item name="layout_constraintTop_toTopOf">@+id/topGuideline</item>
+    <style name="Button.Without.Icon" parent="Card.Button">
+        <item name="android:textAppearance">@style/CBSATextAppearance.Heading1.Bold</item>
+        <item name="android:paddingLeft">@dimen/default_margin_xxlarge</item>
+        <item name="android:paddingRight">@dimen/default_margin_xxlarge</item>
     </style>
 
-    <style name="BottomCardText">
-
-        <item name="layout_constraintVertical_bias">0.195</item>
+    <style name="Card.Button" parent="android:Widget.Button">
+        <item name="android:minWidth">@dimen/card_button_min_width</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="layout_constraintBottom_toBottomOf">parent</item>
-        <item name="layout_constraintLeft_toLeftOf">parent</item>
-        <item name="layout_constraintRight_toRightOf">parent</item>
+    </style>
+
+    <style name="StyleTertiaryButtonBlue" parent="CBSATextAppearance">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:gravity">center</item>
-        <item name="android:textAppearance">@style/CBSATextAppearance.Paragraph1.Bold</item>
     </style>
 
 </resources>

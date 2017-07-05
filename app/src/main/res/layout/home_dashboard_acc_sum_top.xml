@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/home_dashboard_fragment">
+
+    <TextView
+        android:id="@+id/labelAccountsSummary"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/home_dashboard_parent_item_margin"
+        android:gravity="center_vertical"
+        android:text="Accounts summary"
+        android:textAppearance="@style/CBSATextAppearance.Heading2"
+        android:textColor="@color/cbsa_color_white"
+        app:layout_constraintBottom_toBottomOf="@+id/verticalGuidelineAccSum"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlHardcoded,UnknownIdInLayout" />
+
+    <TextView
+        android:id="@+id/btnViewAllAccounts"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/home_dashboard_parent_item_margin"
+        android:layout_marginRight="@dimen/home_dashboard_parent_item_padding"
+        android:background="@drawable/home_dashboard_ripple_button"
+        android:gravity="center"
+        android:paddingLeft="@dimen/home_dashboard_button_padding"
+        android:paddingRight="@dimen/home_dashboard_button_padding"
+        android:text="View all accounts"
+        android:textAppearance="@style/CBSATextAppearance.Paragraph1"
+        android:textColor="@color/cbsa_color_white"
+        app:layout_constraintBottom_toBottomOf="@+id/verticalGuidelineAccSum"
+        app:layout_constraintRight_toLeftOf="@+id/btnToggleBalances"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlHardcoded,UnknownIdInLayout" />
+
+    <TextView
+        android:id="@+id/btnToggleBalances"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/home_dashboard_parent_item_margin"
+        android:background="@drawable/rightdialog_selector_btn_positive"
+        android:clickable="true"
+        android:elevation="@dimen/menu_view_footer_btn_elevation"
+        android:gravity="center"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="Show balances"
+        android:textAppearance="@style/CBSATextAppearance.Paragraph1.Bold"
+        app:layout_constraintBottom_toBottomOf="@+id/verticalGuidelineAccSum"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="RtlHardcoded,UnusedAttribute" />
+</merge>
