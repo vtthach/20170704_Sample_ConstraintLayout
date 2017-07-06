@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/containerSavingGoal"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:layout_marginLeft="@dimen/home_dashboard_parent_item_margin"
+    android:layout_marginTop="@dimen/home_dashboard_parent_item_margin"
+    android:background="@drawable/home_dashboard_account_summary_saving_goal_card_bkg"
+    android:elevation="@dimen/radius_5"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toRightOf="@+id/horizontalGuidelineAccSum"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="@+id/verticalGuidelineAccSum"
+    tools:showIn="@layout/home_dashboard_fragment">
+
+    <TextView
+        android:id="@+id/labelAddSavingGoalTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="@dimen/home_acc_sum_saving_goal_padding_left"
+        android:text="@string/home_dashboard_acc_sum_card_saving_goal_title"
+        android:textAppearance="@style/CBSATextAppearance.Paragraph1.Bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgGoal"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_goal_shadow"
+        app:layout_constraintLeft_toRightOf="@+id/labelAddSavingGoalTitle"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/btnAddSavingGoal"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/home_dashboard_parent_item_padding"
+        android:layout_marginLeft="@dimen/home_acc_sum_saving_goal_padding_left"
+        android:layout_marginRight="@dimen/home_acc_sum_saving_goal_padding_left"
+        android:layout_marginTop="@dimen/home_dashboard_parent_item_padding"
+        android:background="@drawable/home_dashboard_saving_goal_card_ripple_button"
+        android:elevation="3dp"
+        android:gravity="center"
+        android:clickable="true"
+        android:text="@string/home_dashboard_add_savings_goal"
+        android:textAppearance="@style/CBSATextAppearance.Paragraph1.Bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgGoal" />
+
+</android.support.constraint.ConstraintLayout>

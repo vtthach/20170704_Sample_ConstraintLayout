@@ -6,6 +6,10 @@
     <dimen name="home_dashboard_show_balance_btn_width">165dp</dimen>
     <dimen name="home_dashboard_view_all_acc_btn_width">140dp</dimen>
     <dimen name="home_dashboard_radius_4">4dp</dimen>
+    <dimen name="home_dashboard_image_profile_height">109dp</dimen>
+    <dimen name="home_dashboard_image_card_height">100dp</dimen>
+    <dimen name="home_acc_sum_saving_goal_padding_left">15dp</dimen>
+    <dimen name="home_dashboard_saving_goal_card_margin_top">30dp</dimen>
     <item name="home_dashboard_card_bottom_icon_vertical_bias" format="float" type="dimen">.367</item>
 
     <!--Align text Hello will align all component-->

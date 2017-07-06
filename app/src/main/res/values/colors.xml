@@ -18,11 +18,12 @@
 <resources>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccent">@color/cbsa_color_yellow</color>
     <color name="cbsa_color_white">#FFFFFF</color>
     <color name="right_dialog_ripple_gray">#F2F2F2</color>
     <color name="right_dialog_btn_positive_focus">@color/cbsa_color_yellow_down</color>
     <color name="right_dialog_btn_positive">@color/cbsa_color_yellow</color>
     <color name="cbsa_color_yellow_down">#FFFFDF3A</color>
     <color name="cbsa_color_yellow">#FFFFCC00</color>
+    <color name="cbsa_color_black">#000000</color>
 </resources>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/containerEverydayBanking"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:layout_marginEnd="@dimen/home_dashboard_parent_item_margin"
+    android:layout_marginRight="@dimen/home_dashboard_parent_item_margin"
+    android:layout_marginTop="@dimen/home_dashboard_parent_item_margin"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toLeftOf="@+id/horizontalGuidelineAccSum"
+    app:layout_constraintTop_toTopOf="@+id/verticalGuidelineAccSum"
+    tools:showIn="@layout/home_dashboard_fragment">
+
+    <android.support.constraint.Guideline
+        android:id="@+id/verticalEverydayGuideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.33" />
+
+    <TextView
+        android:id="@+id/labelEverydayBanking"
+        style="@style/HomeDashboard_TextBoldBlack"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/home_dashboard_account_summary_background_card_top"
+        android:drawableLeft="@drawable/ic_everyday_account"
+        android:gravity="center_vertical"
+        android:paddingTop="7dp"
+        android:text="Everyday banking"
+        app:layout_constraintBottom_toTopOf="@+id/verticalEverydayGuideline"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/home_dashboard_account_summary_background_card_bottom"
+        android:padding="@dimen/home_dashboard_parent_item_padding"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/verticalEverydayGuideline">
+
+        <TextView
+            android:id="@+id/labelTransAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Transaction account"
+            android:textAppearance="@style/CBSATextAppearance.Paragraph2"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvAmountTransactionAccount"
+            style="@style/HomeAccountTextAmount"
+            android:text="Hidden"
+            app:layout_constraintLeft_toRightOf="@+id/labelTransAccount"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/labelTransAccount" />
+
+        <TextView
+            android:id="@+id/labelSavingAccount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Saving account"
+            android:textAppearance="@style/CBSATextAppearance.Paragraph2"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/labelTransAccount" />
+
+        <TextView
+            android:id="@+id/tvAmountSavingAccount"
+            style="@style/HomeAccountTextAmount"
+            android:text="Hidden"
+            app:layout_constraintLeft_toRightOf="@+id/labelSavingAccount"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/labelSavingAccount" />
+
+        <TextView
+            android:id="@+id/labelTotalAvailable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/home_dashboard_parent_item_margin"
+            android:gravity="center_vertical"
+            android:text="Total available"
+            android:textAppearance="@style/CBSATextAppearance.Paragraph2.Bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent" />
+
+        <TextView
+            android:id="@+id/tvAmountTotalAvailable"
+            style="@style/HomeAccountTextAmount"
+            android:text="Tap to show"
+            android:textAppearance="@style/CBSATextAppearance.Paragraph2.Bold"
+            android:textStyle="bold"
+            app:layout_constraintLeft_toRightOf="@+id/labelTotalAvailable"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/labelTotalAvailable" />
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

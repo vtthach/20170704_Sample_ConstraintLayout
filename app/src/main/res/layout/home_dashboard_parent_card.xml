@@ -14,7 +14,7 @@
 
     <include layout="@layout/home_dashboard_parent_guideline" />
 
-    <include layout="@layout/home_dashboard_account_summary" />
+    <include layout="@layout/home_dashboard_acc_sum" />
 
     <include layout="@layout/home_dashboard_bottom_card" />
 

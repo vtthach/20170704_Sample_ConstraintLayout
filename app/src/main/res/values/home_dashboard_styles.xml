@@ -7,9 +7,9 @@
         <item name="android:layout_height">0dp</item>
     </style>
 
-    <style name="BottomCardIcon">
+    <style name="HomeDashboard_BottomCardIcon">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_height">@dimen/home_dashboard_image_card_height</item>
         <item name="android:scaleType">fitCenter</item>
         <item name="layout_constraintBottom_toBottomOf">@+id/bottomGuideline</item>
         <item name="layout_constraintLeft_toLeftOf">parent</item>
@@ -17,7 +17,7 @@
         <item name="layout_constraintTop_toTopOf">@+id/topGuideline</item>
     </style>
 
-    <style name="BottomCardText">
+    <style name="BottomCardText" parent="HomeDashboard_TextBoldBlack">
         <item name="layout_constraintVertical_bias">0.195</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
@@ -25,7 +25,6 @@
         <item name="layout_constraintLeft_toLeftOf">parent</item>
         <item name="layout_constraintRight_toRightOf">parent</item>
         <item name="android:gravity">center</item>
-        <item name="android:textAppearance">@style/CBSATextAppearance.Paragraph1.Bold</item>
     </style>
 
     <style name="HomeAccountTextAmount">
@@ -33,10 +32,13 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:gravity">center_vertical|right</item>
         <item name="android:textAppearance">@style/CBSATextAppearance.Paragraph2</item>
-        <item name="android:textColor">@color/home_dashboard_bkg_color_card_gray</item>
-        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/home_dashboard_text_color_gray</item>
         <item name="android:singleLine">true</item>
         <item name="android:ellipsize">marquee</item>
     </style>
 
+    <style name="HomeDashboard_TextBoldBlack">
+        <item name="android:textAppearance">@style/CBSATextAppearance.Paragraph1.Bold</item>
+        <item name="android:textColor">@color/cbsa_color_black</item>
+    </style>
 </resources>

@@ -19,14 +19,17 @@
 
         <ImageView
             android:id="@+id/imgProfile"
-            style="@style/BottomCardIcon"
+            style="@style/HomeDashboard_BottomCardIcon"
+            android:layout_height="109dp"
             android:src="@drawable/ic_profile_shadow"
-            app:layout_constraintTop_toTopOf="@+id/topGuidelineProfile" />
+            app:layout_constraintVertical_bias="1.0" />
 
         <TextView
+            android:id="@+id/labelProfileManagement"
             style="@style/BottomCardText"
             android:text="Profile\nmanagement"
-            app:layout_constraintTop_toBottomOf="@+id/imgProfile" />
+            app:layout_constraintTop_toBottomOf="@+id/bottomGuideline"
+            tools:ignore="UnknownIdInLayout" />
     </android.support.constraint.ConstraintLayout>
 
 </android.support.v7.widget.CardView>
