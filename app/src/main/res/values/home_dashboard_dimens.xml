@@ -11,6 +11,8 @@
     <dimen name="home_acc_sum_saving_goal_padding_left">15dp</dimen>
     <dimen name="home_dashboard_saving_goal_card_margin_top">30dp</dimen>
     <dimen name="home_dashboard_profile_img_padding">15dp</dimen>
+    <dimen name="home_dashboard_profile_context_msg_margin_top">37dp</dimen>
+    <dimen name="home_dashboard_profile_context_msg_margin_left_right">20dp</dimen>
     <item name="home_dashboard_card_bottom_icon_vertical_bias" format="float" type="dimen">.367</item>
 
     <!--Align text Hello will align all component-->

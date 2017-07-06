@@ -4,4 +4,5 @@
     <string name="home_dashboard_acc_sum_card_saving_goal_title"><b>Invest in your future</b>\nwith a 10 day notice\nSavings Goal</string>
     <string name="home_dashboard_add_savings_goal">Add Savings Goal</string>
     <string name="home_dashboard_profile_context_ff_msg"><b>Use your\nCBSA debit\ncard</b> to swipe\nat till points,\nbuy online and\nwithdraw cash.</string>
+    <string name="home_dashboard_profile_context_e17_upgrade_msg">Want\nincreased\nlimits on your\naccounts?</string>
 </resources>
