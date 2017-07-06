@@ -18,7 +18,7 @@
         <include layout="@layout/home_dashboard_bottom_icon_percent_guideline" />
 
         <ImageView
-            android:id="@+id/imgCard"
+            android:id="@+id/imgProfile"
             style="@style/BottomCardIcon"
             android:src="@drawable/ic_profile_shadow"
             app:layout_constraintTop_toTopOf="@+id/topGuidelineProfile" />
@@ -26,7 +26,7 @@
         <TextView
             style="@style/BottomCardText"
             android:text="Profile\nmanagement"
-            app:layout_constraintTop_toBottomOf="@+id/imgCard" />
+            app:layout_constraintTop_toBottomOf="@+id/imgProfile" />
     </android.support.constraint.ConstraintLayout>
 
 </android.support.v7.widget.CardView>

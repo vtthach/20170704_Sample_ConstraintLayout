@@ -17,14 +17,14 @@
         <include layout="@layout/home_dashboard_bottom_icon_percent_guideline" />
 
         <ImageView
-            android:id="@+id/imgCard"
+            android:id="@+id/imgHowToPurchases"
             style="@style/BottomCardIcon"
             android:src="@drawable/ic_pay_shadow" />
 
         <TextView
             style="@style/BottomCardText"
             android:text="How to make\npurchases &amp; transfers"
-            app:layout_constraintTop_toBottomOf="@+id/imgCard" />
+            app:layout_constraintTop_toBottomOf="@+id/imgHowToPurchases" />
     </android.support.constraint.ConstraintLayout>
 
 </android.support.v7.widget.CardView>
