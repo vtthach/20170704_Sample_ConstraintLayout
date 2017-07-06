@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:layout_marginLeft="@dimen/home_dashboard_parent_item_margin"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="@+id/horizontalGuideline"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:ignore="UnknownIdInLayout"
+    tools:showIn="@layout/home_dashboard_fragment">
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guidelineProfileContext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.4" />
+
+    <FrameLayout
+        android:id="@+id/containerIcon"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/home_dashboard_profile_context_top_corner"
+        android:padding="@dimen/home_dashboard_profile_img_padding"
+        app:layout_constraintBottom_toBottomOf="@+id/guidelineProfileContext"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_card_shadow_large" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tvProfileContext"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/home_dashboard_profile_context_bottom_corner"
+        android:gravity="left"
+        android:lineSpacingMultiplier="1.26"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="37dp"
+        android:text="@string/home_dashboard_profile_context_ff_msg"
+        android:textAppearance="@style/CBSATextAppearance.Heading2.Medium"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/containerIcon"
+        tools:ignore="HardcodedText" />
+
+</android.support.constraint.ConstraintLayout>

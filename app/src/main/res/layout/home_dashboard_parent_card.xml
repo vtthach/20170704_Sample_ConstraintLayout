@@ -18,6 +18,6 @@
 
     <include layout="@layout/home_dashboard_bottom_card" />
 
-    <include layout="@layout/home_dashboard_card_profile_context" />
+    <include layout="@layout/home_dashboard_card_profile_context_ff" />
 
 </android.support.constraint.ConstraintLayout>

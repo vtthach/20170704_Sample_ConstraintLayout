@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--TODO set up text bold-->
-    <string name="home_dashboard_acc_sum_card_saving_goal_title">Invest in your future\nwith a 10 day notice\nSavings Goal</string>
+    <string name="home_dashboard_acc_sum_card_saving_goal_title"><b>Invest in your future</b>\nwith a 10 day notice\nSavings Goal</string>
     <string name="home_dashboard_add_savings_goal">Add Savings Goal</string>
+    <string name="home_dashboard_profile_context_ff_msg"><b>Use your\nCBSA debit\ncard</b> to swipe\nat till points,\nbuy online and\nwithdraw cash.</string>
 </resources>
