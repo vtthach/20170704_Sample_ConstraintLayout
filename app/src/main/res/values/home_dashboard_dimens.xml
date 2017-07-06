@@ -17,7 +17,7 @@
 
     <item name="home_dashboard_card_bottom_icon_vertical_bias" format="float" type="dimen">.367</item>
     <!--Align text Hello will align all component-->
-    <item name="home_dashboard_fragment_horizontal_bias" format="float" type="dimen">.132</item>
+    <item name="home_dashboard_fragment_horizontal_bias" format="float" type="dimen">.126</item>
     <item name="home_dashboard_fragment_vertical_bias" format="float" type="dimen">.067</item>
     <item name="home_dashboard_fragment_guideline_bottom" format="float" type="dimen">.92</item>
 </resources>

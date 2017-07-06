@@ -3,8 +3,10 @@
 
     <style name="BottomCard">
         <item name="cardBackgroundColor">@color/cbsa_color_white</item>
+        <item name="cardElevation">@dimen/home_dashboard_card_elevation</item>
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginBottom">@dimen/home_dashboard_parent_item_margin_each_other</item>
     </style>
 
     <style name="HomeDashboard_BottomCardIcon">

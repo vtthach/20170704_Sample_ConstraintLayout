@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     style="@style/BottomCard"
     android:layout_marginRight="@dimen/home_dashboard_parent_item_margin_each_other"
+    android:layout_marginLeft="@dimen/home_dashboard_parent_item_padding_alone"
     app:layout_constraintBottom_toBottomOf="parent"
     app:layout_constraintLeft_toLeftOf="parent"
     app:layout_constraintRight_toLeftOf="@+id/guideline1"
