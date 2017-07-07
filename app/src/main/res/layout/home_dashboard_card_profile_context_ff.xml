@@ -44,8 +44,6 @@
             android:background="@drawable/home_dashboard_profile_context_bottom_corner"
             android:gravity="left"
             android:lineSpacingMultiplier="1.26"
-            android:paddingLeft="@dimen/home_dashboard_profile_context_msg_margin_left_right"
-            android:paddingRight="@dimen/home_dashboard_profile_context_msg_margin_left_right"
             android:paddingTop="@dimen/home_dashboard_profile_context_msg_margin_top"
             android:text="@string/home_dashboard_profile_context_ff_msg"
             android:textAppearance="@style/CBSATextAppearance.Heading2.Medium"

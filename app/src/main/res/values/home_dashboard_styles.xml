@@ -44,7 +44,7 @@
 
     <style name="HomeDashboard_Card">
         <item name="android:clickable">true</item>
-        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="android:foreground">@color/right_dialog_ripple_gray</item>
         <item name="cardBackgroundColor">@color/cbsa_color_white</item>
         <item name="cardElevation">@dimen/home_dashboard_card_elevation</item>
     </style>

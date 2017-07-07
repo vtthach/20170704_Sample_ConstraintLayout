@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:paddingTop="160dp">
+    android:paddingTop="156dp">
 
     <include layout="@layout/home_dashboard_fragment" />
 
