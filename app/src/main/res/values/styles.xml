@@ -17,7 +17,7 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="android:Theme.Material.Light.NoActionBar">
+    <style name="AppTheme" parent="android:Theme.Material.Light.NoActionBar.Fullscreen">
         <!-- Customize your theme here. -->
     </style>
 
@@ -123,20 +123,4 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:gravity">center</item>
     </style>
-
-    <style name="HomeDashboard_ProfileContextContainer">
-        <item name="layout_constraintBottom_toBottomOf">parent</item>
-        <item name="layout_constraintLeft_toLeftOf">@+id/horizontalGuideline</item>
-        <item name="layout_constraintRight_toRightOf">parent</item>
-        <item name="layout_constraintTop_toTopOf">parent</item>
-        <item name="android:layout_width">0dp</item>
-        <item name="android:layout_height">0dp</item>
-        <item name="android:layout_marginLeft">@dimen/home_dashboard_parent_item_margin_each_other
-        </item>
-        <item name="android:layout_marginBottom">@dimen/home_dashboard_parent_item_margin_each_other
-        </item>
-        <item name="android:layout_marginRight">@dimen/home_dashboard_parent_item_padding_alone
-        </item>
-    </style>
-
 </resources>

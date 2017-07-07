@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="BottomCard">
-        <item name="cardBackgroundColor">@color/cbsa_color_white</item>
-        <item name="cardElevation">@dimen/home_dashboard_card_elevation</item>
+    <style name="BottomCard" parent="HomeDashboard_Card">
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">0dp</item>
         <item name="android:layout_marginBottom">@dimen/home_dashboard_parent_item_margin_each_other</item>
@@ -20,7 +18,7 @@
     </style>
 
     <style name="BottomCardText" parent="HomeDashboard_TextBoldBlack">
-        <item name="layout_constraintVertical_bias">0.195</item>
+        <item name="layout_constraintVertical_bias">0.4</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="layout_constraintBottom_toBottomOf">parent</item>
@@ -42,5 +40,27 @@
     <style name="HomeDashboard_TextBoldBlack">
         <item name="android:textAppearance">@style/CBSATextAppearance.Paragraph1.Bold</item>
         <item name="android:textColor">@color/cbsa_color_black</item>
+    </style>
+
+    <style name="HomeDashboard_Card">
+        <item name="android:clickable">true</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="cardBackgroundColor">@color/cbsa_color_white</item>
+        <item name="cardElevation">@dimen/home_dashboard_card_elevation</item>
+    </style>
+
+    <style name="HomeDashboard_ProfileContextContainer" parent="HomeDashboard_Card">
+        <item name="layout_constraintBottom_toBottomOf">parent</item>
+        <item name="layout_constraintLeft_toLeftOf">@+id/horizontalGuideline</item>
+        <item name="layout_constraintRight_toRightOf">parent</item>
+        <item name="layout_constraintTop_toTopOf">parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_marginLeft">@dimen/home_dashboard_parent_item_margin_each_other
+        </item>
+        <item name="android:layout_marginBottom">@dimen/home_dashboard_parent_item_margin_each_other
+        </item>
+        <item name="android:layout_marginRight">@dimen/home_dashboard_parent_item_padding_alone
+        </item>
     </style>
 </resources>

@@ -13,11 +13,11 @@
     <dimen name="home_dashboard_profile_img_padding">15dp</dimen>
     <dimen name="home_dashboard_profile_context_msg_margin_top">37dp</dimen>
     <dimen name="home_dashboard_profile_context_msg_margin_left_right">20dp</dimen>
-    <dimen name="home_dashboard_card_elevation">5dp</dimen>
+    <dimen name="home_dashboard_card_elevation">3dp</dimen>
 
     <item name="home_dashboard_card_bottom_icon_vertical_bias" format="float" type="dimen">.367</item>
     <!--Align text Hello will align all component-->
     <item name="home_dashboard_fragment_horizontal_bias" format="float" type="dimen">.126</item>
-    <item name="home_dashboard_fragment_vertical_bias" format="float" type="dimen">.067</item>
-    <item name="home_dashboard_fragment_guideline_bottom" format="float" type="dimen">.92</item>
+    <item name="home_dashboard_fragment_vertical_bias" format="float" type="dimen">.105</item>
+    <item name="home_dashboard_fragment_guideline_bottom" format="float" type="dimen">.9</item>
 </resources>
